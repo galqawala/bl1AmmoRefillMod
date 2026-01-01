@@ -1,3 +1,3 @@
 ---
-pyproject_url: https://raw.githubusercontent.com/RedxYeti/Yeti-BL1-SDK-Mods/refs/heads/main/CleaningUpPandora/pyproject.toml
+pyproject_url: https://raw.githubusercontent.com/galqawala/bl1AmmoRefillMod/refs/heads/master/pyproject.toml
 ---
