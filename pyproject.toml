@@ -1,7 +1,7 @@
 [project]
 name = "AmmoRefillMod"
-version = "1.0.0"
-authors = [{ name = "AI Assistant" }]
+version = "1.1.0"
+authors = [{ name = "galqawala" }]
 description = "Refills ammo for a random type when all ammo is depleted."
 
 [tool.sdkmod]
