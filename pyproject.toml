@@ -1,0 +1,13 @@
+[project]
+name = "AmmoRefillMod"
+version = "1.0.0"
+authors = [{ name = "AI Assistant" }]
+description = "Refills ammo for a random type when all ammo is depleted."
+
+[tool.sdkmod]
+name = "Ammo Refill Mod"
+mod_type = "Standard"
+supported_games = "BL1"
+coop_support = "Unknown"
+auto_enable = "True"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
