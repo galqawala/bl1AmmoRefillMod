@@ -8,5 +8,5 @@ description = "Refills ammo for a random type when all ammo is depleted."
 name = "Ammo Refill Mod"
 supported_games = ["BL1"]
 coop_support = "ClientSide"
-download = "https://github.com/galqawala/bl1AmmoRefillMod/raw/refs/heads/main/AmmoRefillMod.sdkmod"
+download = "https://github.com/galqawala/bl1AmmoRefillMod/raw/refs/heads/master/AmmoRefillMod.sdkmod"
 license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
