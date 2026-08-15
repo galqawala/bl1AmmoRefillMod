@@ -1,4 +1,4 @@
-from mods_base import build_mod, get_pc, hook, BoolOption, SliderOption
+from mods_base import build_mod, get_pc, hook, SliderOption
 from unrealsdk.hooks import Type, prevent_hooking_direct_calls
 import unrealsdk
 from ui_utils import show_hud_message
@@ -6,16 +6,12 @@ import random
 
 check_counter = 0
 
-auto_refill_enabled = BoolOption("Auto Refill Enabled", True)
 refill_threshold = SliderOption("Refill Threshold (%)", 0, 0, 50, 1)
 
 @hook("WillowGame.WillowPlayerController:PlayerTick", Type.POST)
 def check_ammo_refill(obj, __args, __ret, __func):
     global check_counter
-    
-    if not auto_refill_enabled.value:
-        return
-        
+
     check_counter += 1
     if check_counter % 60 != 0:  # Check once per second (assuming 60 FPS)
         return

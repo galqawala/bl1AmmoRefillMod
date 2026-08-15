@@ -1,12 +1,12 @@
 [project]
 name = "AmmoRefillMod"
-version = "1.1.2"
+version = "1.1.5"
 authors = [{ name = "galqawala" }]
 description = "Refills ammo for a random type when all ammo is depleted."
 
 [tool.sdkmod]
 name = "Ammo Refill Mod"
-supported_games = ["BL1"]
+supported_games = ["BL1", "BL1E"]
 coop_support = "ClientSide"
 download = "https://github.com/galqawala/bl1AmmoRefillMod/raw/refs/heads/master/AmmoRefillMod.sdkmod"
 license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
